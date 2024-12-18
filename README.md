@@ -26,7 +26,7 @@ This is an interactive memory game based on popular anime and video game charact
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/memory-game.git
+   git clone https://github.com/yourusername/Memory-Game-Anime.git
    ```
 
 2. Navigate to the project directory:
