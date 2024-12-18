@@ -1,55 +1,55 @@
-# Juego de Memoria: Anime y Videojuegos
+# Memory Game: Anime and Video Games
 
-Este es un juego interactivo de memoria basado en personajes populares de anime y videojuegos. El objetivo del juego es encontrar todas las parejas de cartas en el menor tiempo posible y con la menor cantidad de intentos.
+This is an interactive memory game based on popular anime and video game characters. The goal of the game is to find all pairs of cards in the shortest time and with the fewest attempts possible.
 
-## Características
-- **Temática**: Imágenes de personajes icónicos de anime y videojuegos.
-- **Interactividad**: Voltea las cartas para encontrar las parejas.
-- **Seguimiento**: Visualiza tus intentos y el tiempo transcurrido.
-- **Rejugabilidad**: Las cartas se mezclan aleatoriamente en cada partida.
+## Features
 
-## Tecnologías Utilizadas
-- **HTML**: Estructura del juego.
-- **CSS**: Estilizado del tablero y las cartas.
-- **JavaScript**: Lógica del juego, incluyendo el temporizador, la verificación de parejas y la mezcla de cartas.
+- **Theme**: Images of iconic anime and video game characters.
+- **Interactivity**: Flip the cards to find matching pairs.
+- **Tracking**: View your attempts and elapsed time.
+- **Replayability**: Cards are shuffled randomly in every game.
 
-## Cómo Jugar
-1. Haz clic en el botón "Iniciar Juego" para comenzar.
-2. Se mostrará un tablero con cartas volteadas hacia abajo.
-3. Haz clic en dos cartas para voltearlas.
-4. Si las cartas coinciden, permanecen volteadas. Si no coinciden, se voltean nuevamente después de un breve momento.
-5. Encuentra todas las parejas para ganar el juego.
-6. Tu rendimiento se mide por el número de intentos y el tiempo que tomas para completar el juego.
+## Technologies Used
 
-## Instalación y Uso
-1. Clona este repositorio:
+- **HTML**: Game structure.
+- **CSS**: Styling for the board and cards.
+- **JavaScript**: Game logic, including the timer, pair verification, and card shuffling.
+
+## How to Play
+
+1. Press the "Start Game" button to begin.
+2. Click on a card to flip it and reveal the character.
+3. Try to find the matching pair for each card.
+4. The game ends when all pairs are matched. Your score is determined by the number of attempts and time taken.
+
+## Setup and Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/Juego_de_Memoria_Geek.git
+   git clone https://github.com/yourusername/memory-game.git
    ```
-2. Abre el archivo `index.html` en tu navegador preferido.
-3. ¡Empieza a jugar!
 
-## Personalización
-Puedes agregar tus propias imágenes al juego:
-1. Coloca las nuevas imágenes en la carpeta `./src/img/`.
-2. Agrega las rutas de las imágenes en el array `cardImages` dentro del archivo `main.js`:
-   ```javascript
-   let cardImages = [
-     "./src/img/tuImagen1.jpg",
-     "./src/img/tuImagen2.jpg",
-     // más imágenes...
-   ];
+2. Navigate to the project directory:
+   ```bash
+   cd memory-game
    ```
-3. Asegúrate de que haya un número par de imágenes para crear pares.
 
-## Contribuciones
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el juego, no dudes en abrir un issue o enviar un pull request.
+3. Open the `index.html` file in a web browser to play the game.
 
-## Futuras Mejoras
-- Agregar niveles de dificultad con diferentes tamaños de tablero.
-- Incluir efectos de sonido y animaciones.
-- Implementar un sistema de puntuación.
+## Screenshots
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
+*(Add screenshots of the game interface here)*
 
+## Future Improvements
+
+- Add more characters and themes.
+- Implement different difficulty levels.
+- Save high scores locally or in a database.
+
+## Contributing
+
+Contributions are welcome! If you have ideas or improvements, feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is open-source and available under the [MIT License](./LICENSE).
